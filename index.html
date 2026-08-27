@@ -3,65 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tigist Wujira | Data Science Portfolio</title>
+  <title>Data Science Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
-  <!-- Navigation -->
   <nav id="navbar">
     <div class="nav-container">
-      <a href="#hero" class="logo">Tigist<span>.Wujira</span></a>
-      <ul class="nav-links" id="nav-links">
+      <a href="#hero" class="logo">DS<span>.portfolio</span></a>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="mobile-toggle" id="mobile-toggle">
-        <i data-lucide="menu"></i>
-      </div>
     </div>
   </nav>
 
-  <!-- Hero Section -->
   <section id="hero" class="hero-section">
-    <div class="container hero-layout">
-      
-      <!-- Profile Picture Container -->
-      <div class="hero-avatar-wrapper">
-        <div class="avatar-ring">
-          <img src="profile.jpg" alt="Tigist Wujira" class="avatar-img" onerror="this.src='https://ui-avatars.com/api/?name=Tigist+Wujira&background=14b8a6&color=fff&size=256'">
-        </div>
+    <div class="container hero-content">
+      <p class="subtitle">Hi, my name is</p>
+      <h1>Data Science Professional.</h1>
+      <p class="tagline">Transforming complex datasets into actionable insights, robust machine learning pipelines, and impactful analytics solutions.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn primary-btn">View My Work</a>
+        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
       </div>
-
-      <div class="hero-content">
-        <span class="subtitle">Data Science Professional</span>
-        <h1>Tigist Wujira.</h1>
-        <p class="location-badge"><i data-lucide="map-pin"></i> Washington, DC Area</p>
-        <p class="tagline">Transforming complex datasets into actionable insights, robust machine learning pipelines, and impactful analytics solutions.</p>
-        
-        <div class="hero-cta">
-          <a href="#projects" class="btn primary-btn">View My Work</a>
-          <a href="resume.pdf" target="_blank" download class="btn secondary-btn">
-            <i data-lucide="file-text"></i> Download Resume
-          </a>
-        </div>
-      </div>
-
     </div>
   </section>
 
-  <!-- About Section -->
   <section id="about" class="section">
     <div class="container">
       <h2 class="section-title">About Me</h2>
-      <div class="about-card glass-card">
+      <div class="about-card">
         <p>
           I am a Data Science professional experienced in developing data pipelines, machine learning solutions, business intelligence applications, and analytical workflows across public-sector, healthcare, and business environments.
         </p>
@@ -79,13 +58,12 @@
     </div>
   </section>
 
-  <!-- Skills Section -->
   <section id="skills" class="section">
     <div class="container">
       <h2 class="section-title">Technical Skills</h2>
       <div class="skills-grid">
         
-        <div class="skill-category glass-card">
+        <div class="skill-category">
           <h3><i data-lucide="code"></i> Programming & Algorithms</h3>
           <div class="tags">
             <span class="tag">Python</span>
@@ -99,7 +77,7 @@
           </div>
         </div>
 
-        <div class="skill-category glass-card">
+        <div class="skill-category">
           <h3><i data-lucide="database"></i> Data & Software Engineering</h3>
           <div class="tags">
             <span class="tag">ETL / ELT</span>
@@ -112,7 +90,7 @@
           </div>
         </div>
 
-        <div class="skill-category glass-card">
+        <div class="skill-category">
           <h3><i data-lucide="brain"></i> Data Science & Analytics</h3>
           <div class="tags">
             <span class="tag">Machine Learning</span>
@@ -125,7 +103,7 @@
           </div>
         </div>
 
-        <div class="skill-category glass-card">
+        <div class="skill-category">
           <h3><i data-lucide="bar-chart-3"></i> BI & Platforms</h3>
           <div class="tags">
             <span class="tag">Power BI</span>
@@ -141,7 +119,6 @@
     </div>
   </section>
 
-  <!-- Experience Section -->
   <section id="experience" class="section">
     <div class="container">
       <h2 class="section-title">Professional Experience</h2>
@@ -149,7 +126,7 @@
         
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-content glass-card">
+          <div class="timeline-content">
             <div class="role-header">
               <h3>Data Science Intern</h3>
               <span class="date">Aug 2024 – Dec 2024</span>
@@ -167,7 +144,7 @@
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
-          <div class="timeline-content glass-card">
+          <div class="timeline-content">
             <div class="role-header">
               <h3>Business Analyst</h3>
               <span class="date">Jan 2019 – Aug 2022</span>
@@ -186,13 +163,12 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
   <section id="projects" class="section">
     <div class="container">
       <h2 class="section-title">Academic & Featured Projects</h2>
       <div class="projects-grid">
         
-        <div class="project-card glass-card">
+        <div class="project-card">
           <div class="project-badge">Active Project</div>
           <h3>AI4ALL | Skin Lesion Classifier: Audit Fairness</h3>
           <p class="project-date">May 2026 – Present</p>
@@ -205,7 +181,7 @@
           </div>
         </div>
 
-        <div class="project-card glass-card">
+        <div class="project-card">
           <div class="project-badge">Completed</div>
           <h3>Predictive Neuro-Analytics for Early Alzheimer's</h3>
           <p class="project-date">March 2026 – May 2026</p>
@@ -222,30 +198,25 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact" class="section">
     <div class="container contact-container">
       <h2 class="section-title">Get In Touch</h2>
-      <p class="contact-lead">Based in the Washington, DC Area. I am always open to discussing new opportunities, data science projects, or collaboration. Feel free to connect!</p>
+      <p class="contact-lead">I am always open to discussing new opportunities, data science projects, or collaboration. Feel free to reach out via LinkedIn or inspect my open-source code on GitHub!</p>
       <div class="contact-links">
-        <a href="https://www.linkedin.com/in/tigistwujira" target="_blank" rel="noopener noreferrer" class="social-link glass-card">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">
           <i data-lucide="linkedin"></i>
-          <span>LinkedIn</span>
+          <span>LinkedIn Profile</span>
         </a>
-        <a href="https://github.com/Twujira" target="_blank" rel="noopener noreferrer" class="social-link glass-card">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
           <i data-lucide="github"></i>
-          <span>GitHub</span>
-        </a>
-        <a href="resume.pdf" target="_blank" download class="social-link glass-card resume-accent">
-          <i data-lucide="file-text"></i>
-          <span>PDF Resume</span>
+          <span>GitHub Profile</span>
         </a>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2026 Tigist Wujira. Built with HTML, CSS, and Vanilla JavaScript.</p>
+    <p>&copy; 2026 Data Science Professional. Built with HTML, CSS, and Vanilla JavaScript.</p>
   </footer>
 
   <script src="script.js"></script>
